@@ -1,0 +1,127 @@
+.sidebar {
+    background-color: #fff;
+    flex-direction: column;
+    width: 306px;
+    padding: 36px 28px;
+    display: flex;
+    box-shadow: 0 10px 60px #e2ecf980;
+  }
+  
+  @media (width <= 991px) {
+    .sidebar {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
+  .logoSection {
+    align-items: center;
+    margin-bottom: 60px;
+    display: flex;
+  }
+  
+  .logoText {
+    margin-left: 8px;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .version {
+    color: #838383;
+    margin-left: auto;
+    font-size: 10px;
+  }
+  
+  .navLinks {
+    flex-direction: column;
+    gap: 40px;
+    display: flex;
+  }
+  
+  .navItem,
+  .navItemActive {
+    color: #9197b3;
+    cursor: pointer;
+    border-radius: 8px;
+    align-items: center;
+    padding: 11px;
+    font-size: 14px;
+    display: flex;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .navItemActive {
+    background-color: #5932ea;
+    color: #fff;
+  }
+  
+  .navItem i,
+  .navItemActive i {
+    margin-right: 14px;
+  }
+  
+  .navItem i:last-child,
+  .navItemActive i:last-child {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  .upgradeCard {
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(108deg, #eaabf0 7.37%, #4623e9 95.19%);
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+  
+  .upgradeText {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .upgradeButton {
+    color: #4925e9;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-weight: 600;
+  }
+  
+  .userSection {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .userAvatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .userInfo {
+    flex: 1;
+  }
+  
+  .userName {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .userRole {
+    color: #757575;
+    font-size: 12px;
+    margin: 0;
+  }
+  

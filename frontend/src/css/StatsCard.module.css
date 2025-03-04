@@ -1,0 +1,69 @@
+.statCard {
+    background-color: #fff;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    box-shadow: 0 10px 60px #e2ecf980;
+    flex: 1;
+  }
+  
+  .statInfo {
+    flex: 1;
+  }
+  
+  .statLabel {
+    color: #acacac;
+    margin-bottom: 8px;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .statValue {
+    color: #333;
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 8px 0;
+  }
+  
+  .statChange {
+    align-items: center;
+    font-size: 12px;
+    display: flex;
+    margin: 0;
+  }
+  
+  .statChange i {
+    margin-right: 4px;
+  }
+  
+  .positive {
+    color: #00ac4f;
+  }
+  
+  .negative {
+    color: #d0004b;
+  }
+  
+  .activeUsers {
+    margin-top: 8px;
+    display: flex;
+  }
+  
+  .activeUserDot {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1.3px solid #fff;
+    margin-right: -8px;
+  }
+  
+  .statIcon {
+    width: 84px;
+    height: 84px;
+    margin-right: 16px;
+    border-radius: 50%;
+    background: linear-gradient(108deg, #d3ffe7 0%, #effff6 100%);
+  }
+  

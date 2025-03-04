@@ -1,0 +1,49 @@
+.dashboardContainer {
+    background-color: #fafbff;
+    min-height: 100vh;
+    font-family: Poppins, sans-serif;
+    display: flex;
+  }
+  
+  @media (width <= 991px) {
+    .dashboardContainer {
+      flex-direction: column;
+    }
+  }
+  
+  .mainContent {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .header {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    display: flex;
+  }
+  
+  @media (width <= 640px) {
+    .header {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  .greeting {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .statsCards {
+    gap: 40px;
+    margin-bottom: 40px;
+    display: flex;
+  }
+  
+  @media (width <= 991px) {
+    .statsCards {
+      flex-direction: column;
+    }
+  }
+  

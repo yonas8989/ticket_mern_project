@@ -1,0 +1,24 @@
+.searchBar {
+    background-color: #fff;
+    border-radius: 12px;
+    align-items: center;
+    padding: 8px 16px;
+    display: flex;
+    box-shadow: 0 10px 60px #e2ecf980;
+  }
+  
+  @media (width <= 640px) {
+    .searchBar {
+      width: 100%;
+    }
+  }
+  
+  .input {
+    color: #b5b7c0;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
