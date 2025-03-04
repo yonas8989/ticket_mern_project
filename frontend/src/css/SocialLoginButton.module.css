@@ -1,0 +1,26 @@
+.button {
+    background-color: #fff;
+    border: 1px solid #d8dadc;
+    border-radius: 10px;
+    flex: 1;
+    padding: 18px 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .iconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    object-position: center;
+  }
+  

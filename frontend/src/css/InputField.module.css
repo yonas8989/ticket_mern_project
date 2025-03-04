@@ -1,0 +1,44 @@
+.inputContainer {
+    width: 100%;
+    margin-top: 22px;
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-weight: 400;
+    line-height: 1;
+  }
+  
+  .label {
+    color: #000;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .input {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #d8dadc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 18px 16px;
+    font-size: 16px;
+    font-family: inherit;
+  }
+  
+  .icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+  }
+  
