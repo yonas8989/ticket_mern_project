@@ -1,8 +1,6 @@
 
 import styles from "../css/SignUp.module.css";
 import { InputField } from "./InputField";
-import { SocialLoginButton } from "./SocialLoginButton";
-import { Divider } from "./Divider";
 
 export default function SignUp() {
   return (
