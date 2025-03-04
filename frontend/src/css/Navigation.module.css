@@ -1,0 +1,69 @@
+.navigation {
+    width: 100%;
+    padding-left: 38px;
+  }
+  
+  .container {
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    font-family:
+      Averta Demo PE Cutted Demo,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-weight: 400;
+  }
+  
+  .logo {
+    font-size: 27px;
+    margin: 0;
+  }
+  
+  .logoHighlight {
+    font-family:
+      Proxima Nova,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-weight: 700;
+  }
+  
+  .navLinks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 40px 58px;
+    margin: auto 0;
+    font-size: 16px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navLink {
+    border-color: #000;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  @media (width <= 991px) {
+    .navigation {
+      padding-left: 20px;
+    }
+  
+    .container {
+      max-width: 100%;
+    }
+  
+    .navLinks {
+      max-width: 100%;
+    }
+  }
+  

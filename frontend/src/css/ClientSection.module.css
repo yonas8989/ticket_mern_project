@@ -1,0 +1,101 @@
+.clientSection {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    margin-left: 38px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    font-family:
+      Averta Demo PE Cutted Demo,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-weight: 400;
+  }
+  
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+    display: flex;
+  }
+  
+  .title {
+    color: #000;
+    border: 1px solid #000;
+    align-self: start;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .description {
+    color: #757575;
+    margin-top: 17px;
+    font-size: 18px;
+    line-height: 29px;
+  }
+  
+  .clientLogos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .clientLogo {
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .clientLogo:nth-child(1) {
+    aspect-ratio: 3.06;
+    width: 150px;
+    margin-top: 56px;
+  }
+  
+  .clientLogo:nth-child(2) {
+    aspect-ratio: 3.19;
+    width: 166px;
+    margin-top: 54px;
+  }
+  
+  .clientLogo:nth-child(3) {
+    aspect-ratio: 5.92;
+    width: 166px;
+    margin-top: 66px;
+  }
+  
+  .clientLogo:nth-child(4) {
+    aspect-ratio: 3.3;
+    width: 142px;
+    margin-top: 71px;
+  }
+  
+  .decorativeImage {
+    aspect-ratio: 1.57;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 150px 0 0;
+    width: 100%;
+    margin-top: 94px;
+  }
+  
+  @media (width <= 991px) {
+    .clientSection {
+      max-width: 100%;
+    }
+  
+    .clientLogo {
+      margin-top: 40px !important;
+    }
+  
+    .decorativeImage {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  

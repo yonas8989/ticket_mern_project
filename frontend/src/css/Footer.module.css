@@ -1,0 +1,125 @@
+.footer {
+    width: 100%;
+    margin-top: 106px;
+    padding-left: 38px;
+    font-family:
+      Averta Demo PE Cutted Demo,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+  }
+  
+  .divider {
+    border: 1px solid #e4e4e4;
+    width: 1200px;
+    max-width: 100%;
+    height: 1px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 60px;
+  }
+  
+  .companyInfo {
+    max-width: 300px;
+  }
+  
+  .logo {
+    color: #000;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .logoHighlight {
+    font-family:
+      Proxima Nova,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-weight: 700;
+  }
+  
+  .description {
+    color: #565656;
+    margin-top: 26px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .footerNav {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .navColumn {
+    color: #000;
+  }
+  
+  .columnTitle {
+    font-size: 20px;
+    margin: 0 0 24px;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  
+  .socialLinks {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .socialIcon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+  }
+  
+  .bottomDivider {
+    border: 1px solid #f2f2f2;
+    width: 1200px;
+    max-width: 100%;
+    height: 1px;
+    margin-top: 28px;
+  }
+  
+  .copyright {
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  @media (width <= 991px) {
+    .footer {
+      margin-top: 40px;
+      padding-left: 20px;
+    }
+  
+    .content {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+  
+    .footerNav {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .navColumn {
+      min-width: 150px;
+    }
+  }
+  
